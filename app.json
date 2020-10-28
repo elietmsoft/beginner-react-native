@@ -1,0 +1,12 @@
+{
+  "name": "Meteo",
+  "displayName": "Meteo",
+  "expo": {
+    "name": "Meteo",
+    "slug": "Meteo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
