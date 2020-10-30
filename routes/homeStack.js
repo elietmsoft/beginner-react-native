@@ -1,7 +1,7 @@
 import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer} from 'react-navigation';
 import Home from '../components/Home';
-import About from '../components/About';
+import Review from '../components/Review';
 
 const screens = {
   Home:{
@@ -10,10 +10,10 @@ const screens = {
           title:'Accueil'
       }
   },
-  About:{
-      screen:About,
+  Review:{
+      screen:Review,
       navigationOptions:{
-        title:'Détail'
+        title:'Review'
     }
   }
 }
